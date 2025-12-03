@@ -1,0 +1,70 @@
+/* Äußerer Rahmen der App: volle Höhe, Padding außen */
+.app {
+    min-height: 100vh;
+    padding: 1.5rem 1rem;
+}
+
+/* Zentrierter Inhalts-Container */
+.app-container {
+    width: 100%;
+    max-width: 900px;
+    margin: 0 auto;
+    /* zentriert horizontal */
+}
+
+/* Header mit Titel */
+.app-header {
+    margin-bottom: 1.5rem;
+    text-align: left;
+    /* oder center, wenn du magst */
+}
+
+.app-header h1 {
+    font-size: 2rem;
+    margin: 0;
+}
+
+/* Hauptbereich: Sektionen untereinander mit Abstand */
+.app-main {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+/* Baum-Bereich */
+.tree-section {
+    border-radius: 12px;
+    background-color: #11182b;
+    /* etwas heller als der Hintergrund */
+    padding: 1rem;
+    min-height: 300px;
+    /* Platzhalterhöhe für den Baum */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Palette-Bereich */
+.palette-section {
+    border-radius: 12px;
+    background-color: #161d33;
+    padding: 1rem;
+    min-height: 120px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* tree component styles */
+.tree-canvas {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+.tree {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
