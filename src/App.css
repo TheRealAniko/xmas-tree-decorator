@@ -44,7 +44,7 @@
     justify-content: center;
 }
 
-/* Palette-Bereich */
+/* palette styles */
 .palette-section {
     border-radius: 12px;
     background-color: #161d33;
@@ -67,4 +67,24 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+}
+
+/* ornament palette styles */
+.ornament-palette {
+    display: flex;
+    flex-direction: row;
+    gap: 12px;
+    padding: 8px;
+    align-items: center;
+}
+
+.ornament-icon {
+    cursor: pointer;
+    padding: 4px;
+    border-radius: 6px;
+    transition: background-color 0.2s ease;
+}
+
+.ornament-icon:hover {
+    background-color: #2a334a;
 }
