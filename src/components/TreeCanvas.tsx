@@ -1,7 +1,6 @@
-import React from "react";
 import { TreePine } from "lucide-react";
 
-const TreeCanvas: React.FC = () => {
+const TreeCanvas = () => {
     return (
         <div className="tree-canvas">
             <div className="tree">

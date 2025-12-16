@@ -1,9 +1,8 @@
-import React from 'react';
 import TreeCanvas from './components/TreeCanvas';
 import OrnamentPalette from './components/OrnamentPalette';
 import './App.css';
 
-const App: React.FC = () => {
+const App = () => {
   return (
     <div className="app">
       <div className="app-container">
